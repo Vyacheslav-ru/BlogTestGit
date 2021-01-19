@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta charset="utf-8">
+    <title>Список. Разные вариации.</title>
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+    <header class="headerday">
+      <nav class="blog-navigation">
+        <a href="index.html">На главную</a>
+      </nav>
+      <input value="Далее" class="button" type="button" onclick="location.href='day-3.html'"/>
+      <p class="page-title"><a href="index.html">Дневник</a></p>
+    </header>
+    <main class="daire">
+      <article>
+        <h1>Список. Разные вариации.</h1>
+
+        <h2 class="descrip">Список ежедневных дел.</h2>
+        <ol type="I">
+          <li>Большое задание раз
+            <ul>
+              <li>что-то в нем</li>
+              <li>и еще что-то</li>
+              <li>ну и вот это</li>
+            </ul>
+          </li>
+          <li>Второе дело</li>
+          <li><del>Еще одно дело</del></li>
+          <li><ins>И вот это</ins></li>
+        </ol>
+
+        <p>По мимо важных дел, можно составить и список в обратном буквенном порядке:</p>
+        <ol reversed type = "a">
+          <li>__________</li>
+          <li>__________</li>
+          <li>__________</li>
+          <li>__________</li>
+        </ol>
+
+        <p>А теперь продолжаем список дел...</p>
+        <ol start = "5" type="I">
+          <li>Дела</li>
+          <li class="underline">Дела</li>
+          <li class="line-through">Всякие дела</li>
+          <li class="overline">Много дел</li>
+        </ol>
+        <h2 class="descrip">Бесконечный нумерованный список.</h2>
+        <article class="longList">
+          <ol>
+              <li>___</li>
+              <li>___
+                  <ol>
+                      <li>___
+                          <ol>
+                              <li>___</li>
+                              <li>___</li>
+                              <li>___</li>
+                          </ol>
+                      </li>
+                      <li>___
+                          <ol>
+                              <li>___
+                                  <ol>
+                                      <li>___</li>
+                                      <li>___</li>
+                                  </ol>
+                              </li>
+                              <li>___</li>
+                              <li>___</li>
+                          </ol>
+                      </li>
+                  </ol>
+              </li>
+              <li>___</li>
+          </ol>
+
+      </article>
+      <aside class="partnership">
+        Тут могла быть ваша реклама
+      </aside>
+    </main>
+    <footer>
+      Подвал сайта
+    </footer>
+  </body>
+</html>
